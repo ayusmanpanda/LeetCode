@@ -36,15 +36,13 @@ class Solution {
         if(p==q) return p;
         boolean leftP = contains(root.left,p);
         boolean leftQ = contains(root.left,q);
-        if (leftP && leftQ) {
-        return lowestCommonAncestor(root.left, p, q);
-    }
-
-    // Both are in right subtree
-    if (!leftP && !leftQ) {
-        return lowestCommonAncestor(root.right, p, q);
-    }
-
+        if (leftP && leftQ){
+            return lowestCommonAncestor(root.left, p, q);
+        }
+        // Both are in right subtree
+        if (!leftP && !leftQ) {
+            return lowestCommonAncestor(root.right, p, q);
+        }
         return root;
     }
 }
