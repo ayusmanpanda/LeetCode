@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0860-lemonade-change](https://github.com/ayusmanpanda/LeetCode/tree/master/0860-lemonade-change) |
+| [3875-construct-uniform-parity-array-i](https://github.com/ayusmanpanda/LeetCode/tree/master/3875-construct-uniform-parity-array-i) |
 ## Greedy
 |  |
 | ------- |
@@ -107,4 +108,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ayusmanpanda/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+## Math
+|  |
+| ------- |
+| [3875-construct-uniform-parity-array-i](https://github.com/ayusmanpanda/LeetCode/tree/master/3875-construct-uniform-parity-array-i) |
 <!---LeetCode Topics End-->
