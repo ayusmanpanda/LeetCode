@@ -14,15 +14,31 @@
  * }
  */
 class Solution {
-    public List<Integer> postorderTraversal(TreeNode root) {
+    // RECURSION
+    // public List<Integer> postorderTraversal(TreeNode root) {
+    //     List<Integer> ans = new ArrayList<>();
+    //     helper(ans,root);
+    //     return ans;
+    // }
+    // public void helper(List<Integer> ans,TreeNode root){
+    //     if(root==null) return ;
+    //     helper(ans,root.left);
+    //     helper(ans,root.right);
+    //     ans.add(root.val);
+    // }
+
+    // Stack
+    public List<Integer> postorderTraversal(TreeNode root){
         List<Integer> ans = new ArrayList<>();
-        helper(ans,root);
+        Stack<TreeNode> st = new Stack<>();
+        if(root!=null) st.push(root);
+        while(st.size()>0){
+            TreeNode temp = st.pop();
+            ans.add(temp.val);
+            if(temp.left!=null) st.push(temp.left);
+            if(temp.right!=null) st.push(temp.right);
+        }
+        Collections.reverse(ans);
         return ans;
-    }
-    public void helper(List<Integer> ans,TreeNode root){
-        if(root==null) return ;
-        helper(ans,root.left);
-        helper(ans,root.right);
-        ans.add(root.val);
     }
 }
