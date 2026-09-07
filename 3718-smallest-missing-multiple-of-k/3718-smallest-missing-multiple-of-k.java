@@ -1,15 +1,25 @@
 class Solution {
     public int missingMultiple(int[] nums, int k) {
-        HashMap<Integer,Integer> mp = new HashMap<>();
+        // HashMap<Integer,Integer> mp = new HashMap<>();
+        // for(int i:nums){
+        //     if(i%k==0) mp.put(i,0);
+        // }
+        // int i=1;
+        // while(true){
+        //     if(mp.get(i*k)==null){
+        //         return i*k;
+        //     }
+        //     i++;
+        // }
+
+        boolean[] arr=new boolean[101];
         for(int i:nums){
-            if(i%k==0) mp.put(i,0);
+            arr[i]=true;
         }
-        int i=1;
-        while(true){
-            if(mp.get(i*k)==null){
-                return i*k;
-            }
-            i++;
+        int i=k;
+        for(;i<101;i+=k){
+            if(!arr[i]) return i;
         }
+        return i;
     }
 }
