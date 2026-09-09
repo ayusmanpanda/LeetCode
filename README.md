@@ -126,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0168-excel-sheet-column-title](https://github.com/ayusmanpanda/LeetCode/tree/master/0168-excel-sheet-column-title) |
 | [3870-count-commas-in-range](https://github.com/ayusmanpanda/LeetCode/tree/master/3870-count-commas-in-range) |
+| [3871-count-commas-in-range-ii](https://github.com/ayusmanpanda/LeetCode/tree/master/3871-count-commas-in-range-ii) |
 | [3875-construct-uniform-parity-array-i](https://github.com/ayusmanpanda/LeetCode/tree/master/3875-construct-uniform-parity-array-i) |
 ## Prefix Sum
 |  |
