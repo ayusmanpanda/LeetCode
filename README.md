@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0168-excel-sheet-column-title](https://github.com/ayusmanpanda/LeetCode/tree/master/0168-excel-sheet-column-title) |
+| [0171-excel-sheet-column-number](https://github.com/ayusmanpanda/LeetCode/tree/master/0171-excel-sheet-column-number) |
 | [0257-binary-tree-paths](https://github.com/ayusmanpanda/LeetCode/tree/master/0257-binary-tree-paths) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/ayusmanpanda/LeetCode/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Sliding Window
@@ -128,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0168-excel-sheet-column-title](https://github.com/ayusmanpanda/LeetCode/tree/master/0168-excel-sheet-column-title) |
+| [0171-excel-sheet-column-number](https://github.com/ayusmanpanda/LeetCode/tree/master/0171-excel-sheet-column-number) |
 | [3870-count-commas-in-range](https://github.com/ayusmanpanda/LeetCode/tree/master/3870-count-commas-in-range) |
 | [3871-count-commas-in-range-ii](https://github.com/ayusmanpanda/LeetCode/tree/master/3871-count-commas-in-range-ii) |
 | [3875-construct-uniform-parity-array-i](https://github.com/ayusmanpanda/LeetCode/tree/master/3875-construct-uniform-parity-array-i) |
