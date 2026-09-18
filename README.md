@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayusmanpanda/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0835-image-overlap](https://github.com/ayusmanpanda/LeetCode/tree/master/0835-image-overlap) |
 | [0860-lemonade-change](https://github.com/ayusmanpanda/LeetCode/tree/master/0860-lemonade-change) |
 | [3483-unique-3-digit-even-numbers](https://github.com/ayusmanpanda/LeetCode/tree/master/3483-unique-3-digit-even-numbers) |
@@ -47,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/ayusmanpanda/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ayusmanpanda/LeetCode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ayusmanpanda/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayusmanpanda/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/ayusmanpanda/LeetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/ayusmanpanda/LeetCode/tree/master/0112-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ayusmanpanda/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
@@ -85,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/ayusmanpanda/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ayusmanpanda/LeetCode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ayusmanpanda/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayusmanpanda/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/ayusmanpanda/LeetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/ayusmanpanda/LeetCode/tree/master/0112-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/ayusmanpanda/LeetCode/tree/master/0144-binary-tree-preorder-traversal) |
@@ -127,6 +130,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayusmanpanda/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/ayusmanpanda/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 ## Math
 |  |
@@ -166,4 +170,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0223-rectangle-area](https://github.com/ayusmanpanda/LeetCode/tree/master/0223-rectangle-area) |
 | [0836-rectangle-overlap](https://github.com/ayusmanpanda/LeetCode/tree/master/0836-rectangle-overlap) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0108-convert-sorted-array-to-binary-search-tree](https://github.com/ayusmanpanda/LeetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 <!---LeetCode Topics End-->
