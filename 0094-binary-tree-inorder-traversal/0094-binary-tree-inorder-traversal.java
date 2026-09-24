@@ -50,18 +50,17 @@ class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> arr=new ArrayList<>();
         Stack<TreeNode> st= new Stack<>();
-        if(root==null) return arr;
-        st.push(root);
-        while(st.size()>0){
-            TreeNode temp=st.peek();
-            if(temp.left!=null){
-                st.push(temp.left);
-                temp.left =null;
+        TreeNode temp = root;
+        while(true){
+            if(temp!=null){
+                st.push(temp);
+                temp =temp.left;
             }
             else{
-                st.pop();
-                arr.add(temp.val);
-                if(temp.right!=null) st.push(temp.right);
+                if(st.size()==0) break;
+                TreeNode top = st.pop();
+                arr.add(top.val);
+                temp = top.right;
             }
         }
         return arr;
