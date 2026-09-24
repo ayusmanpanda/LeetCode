@@ -1,15 +1,13 @@
 class Solution {
-    public int sumDig(int n){
-        int val=0;
-        while(n>0){
-            val += n%10;
-            n= n/10;
-        }
-        return val;
-    }
     public int smallestIndex(int[] nums) {
         for(int i=0;i<nums.length;i++){
-            if(i==sumDig(nums[i])) return i;
+            int sum = 0;
+            int n= nums[i];
+            while(n>0){
+                sum += n%10;
+                n= n/10;
+            }
+            if(i==sum) return i;
         }
         return -1;
     }
