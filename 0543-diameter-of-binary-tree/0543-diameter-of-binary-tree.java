@@ -29,15 +29,31 @@ class Solution {
 
     // }
 
+    // public int levels(TreeNode root){
+    //     if(root==null) return 0;
+    //     return 1+Math.max(levels(root.left),levels(root.right));
+    // }
+    // public int diameterOfBinaryTree(TreeNode root){
+    //     if(root==null) return 0;
+    //     int dia=levels(root.left)+levels(root.right);
+    //     int a = diameterOfBinaryTree(root.left);
+    //     int b = diameterOfBinaryTree(root.right);
+    //     return Math.max(dia,Math.max(a,b));
+    // }
+
+    static int maxDia;
     public int levels(TreeNode root){
         if(root==null) return 0;
-        return 1+Math.max(levels(root.left),levels(root.right));
+        int a = levels(root.left);
+        int b = levels(root.right);
+        int dia = a+b;
+        maxDia= Math.max(dia,maxDia);
+        return 1+Math.max(a,b);
     }
     public int diameterOfBinaryTree(TreeNode root){
         if(root==null) return 0;
-        int dia=levels(root.left)+levels(root.right);
-        int a = diameterOfBinaryTree(root.left);
-        int b = diameterOfBinaryTree(root.right);
-        return Math.max(dia,Math.max(a,b));
+        maxDia =0;
+        levels(root);
+        return maxDia;
     }
 }
